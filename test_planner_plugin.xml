@@ -1,0 +1,7 @@
+<library path="lib/libtest_planner">
+    <class name="test_planner/TestPlanner"
+           type="test_planner::TestPlanner"
+           base_class_type="nav_core::BaseGlobalPlanner">
+        <description>My Custom Global Planner</description>
+    </class>
+</library>

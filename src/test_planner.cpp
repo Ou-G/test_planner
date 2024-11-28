@@ -1,9 +1,9 @@
-#include <pluginlib/class_list_macros.h>
-#include <nav_msgs/Path.h>
-#include <geometry_msgs/PoseStamped.h>
 #include <nav_core/base_global_planner.h>
+#include <pluginlib/class_list_macros.h>
 #include <ros/ros.h>
 #include <costmap_2d/costmap_2d_ros.h>
+#include <geometry_msgs/PoseStamped.h>
+#include <nav_msgs/Path.h>
 
 namespace test_planner {
 
